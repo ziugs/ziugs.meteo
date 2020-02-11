@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ziugs.meteo.GUIController">
+
+    <tabs>
+    <Tab text="1. pilvekihi kõrgus (m)">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ImageView id="qwe" fitHeight="574.0" fitWidth="800.0" layoutY="-42.0">
+                     <image>
+                        <Image url="file:\C:\Users\admin\Downloads\eesti-kaart.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="label1" layoutX="45.0" layoutY="24.0" prefHeight="25.0" prefWidth="87.0" text="Label" />
+                  <Label fx:id="label2" layoutX="45.0" layoutY="49.0" prefHeight="18.0" prefWidth="58.0" text="Label" />
+                  <Label fx:id="label3" layoutX="45.0" layoutY="76.0" prefHeight="18.0" prefWidth="52.0" text="Label" />
+                  <Label fx:id="label4" layoutX="45.0" layoutY="101.0" prefHeight="18.0" prefWidth="64.0" text="Label" />
+                  <Label fx:id="label5" layoutX="45.0" layoutY="126.0" prefHeight="18.0" prefWidth="61.0" text="Label" />
+                  <Label fx:id="label6" layoutX="155.0" layoutY="28.0" prefHeight="9.0" prefWidth="48.0" text="Label" />
+                  <Label fx:id="label7" layoutX="163.0" layoutY="76.0" prefHeight="18.0" prefWidth="121.0" text="Label" />
+
+               </children></AnchorPane>
+    </content>
+</Tab>
+    <Tab text="Untitled Tab 2">
+        <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+    </Tab>
+
+    <Tab text="Untitled iuy">
+        <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+    </Tab>
+
+    <Tab text="Untitled Tab 2">
+        <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+    </Tab>
+
+</tabs>
+</TabPane>
